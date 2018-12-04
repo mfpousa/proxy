@@ -5,3 +5,4 @@ module.exports = (req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     request.get(url).pipe(res);
 };
+//
